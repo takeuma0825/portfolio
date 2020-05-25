@@ -1,5 +1,9 @@
+const pkg = require('./package')
 
 export default {
+  generate: {
+    fallback: true
+  },
   mode: 'universal',
   /*
   ** Headers of the page
