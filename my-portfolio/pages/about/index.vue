@@ -1,7 +1,7 @@
 <template>
     <div class="page-about">
         <section class="about">
-            <h2>はじめました</h2>
+            <h2 class="section-title">はじめました</h2>
             <ArticleBody>
                 <p>たけうま。2010年にプログラマとしてシステム開発に従事</p>
                 <p>2018年にITコンサルに職種を変え、システム開発におけるPMO業務に従事</p>
@@ -9,7 +9,7 @@
         </section>
 
         <section class="history">
-            <h2>経歴</h2>
+            <h2 class="section-title">経歴</h2>
             <ArticleBody>
                 <h3>2010～2016年</h3>
                 <p>ストレージ管理ソフトウェア開発</p>
@@ -32,23 +32,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
-.about,
-.history {
-    h2 {
-        display: flex;
-        align-items: center;
-        margin: 50px 0 30px;
-        font-size: 30px;
-
-        &::after {
-            content: '';
-            display: block;
-            flex: 1;
-            height: 1px;
-            margin-left: 10px;
-            background-color: $color-black;
-        }
-    }
-}
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="page-index">
     <section class="about">
-      <h2>たけうま</h2>
+      <h2 class="section-title">たけうま</h2>
       <ArticleBody>
         <img src="~/assets/images/takeuma.jpg" alt="たけうま">
         <p>エンジニア兼、ITコンサル</p>
@@ -9,7 +9,7 @@
     </section>
 
     <section class="works">
-      <h2>ITスキル</h2>
+      <h2 class="section-title">ITスキル</h2>
       <ArticleBody>
         <p>Programming language.</p>
         <ul>
@@ -35,23 +35,4 @@ export default {
 
 
 <style scoped lang="scss">
-
-.about,
-.works {
-  h2 {
-    display: flex;
-    align-items: center;
-    margin: 50px 0 30px;
-    font-size: 30px;
-
-    &::after {
-      content: '';
-      display: block;
-      flex: 1;
-      height: 1px;
-      margin-left: 10px;
-      background-color: $color-black;
-    }
-  }
-}
 </style>
