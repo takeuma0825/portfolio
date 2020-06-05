@@ -3,7 +3,6 @@
 </template>
 
 <style lang="scss" scoped>
-@import "~assets/scss/variables";
 
 .footer {
     background-color: $color-gray;
