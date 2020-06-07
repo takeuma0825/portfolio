@@ -1,1 +1,5 @@
 # portfolio
+
+## Environment
+* nuxt
+* firebase
