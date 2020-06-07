@@ -44,9 +44,17 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: ['@nuxtjs/style-resources'],
+  modules: ['@nuxtjs/style-resources', 'nuxt-fontawesome'],
   styleResources: {
     scss: ['~/assets/scss/_variables.scss']
+  },
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-brands-svg-icons',
+        icons: ['fab']
+      }
+    ]
   },
   /*
   ** Build configuration
