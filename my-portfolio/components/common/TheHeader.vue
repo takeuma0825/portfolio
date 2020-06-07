@@ -1,8 +1,9 @@
 <template>
     <header class="header">
         <div class="header-inner">
-            <h1>My-Portfolio</h1>
+            <nuxt-link to="/about">
             自己紹介
+            </nuxt-link>
         </div>
     </header>
 </template>
@@ -20,9 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 15px;
 
-    a {
-        color: inherit;
-    }
 }
 </style>
